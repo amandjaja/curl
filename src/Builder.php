@@ -374,7 +374,11 @@ class Builder {
      */
     public function get()
     {
-        $this->appendDataToURL();
+        if( $this->packageOptions[ 'asJsonRequest' ] ) {
+            $this->setPostParameters();
+        }else{
+            $this->appendDataToURL();
+        }
 
         return $this->send();
     }
@@ -474,7 +478,11 @@ class Builder {
      */
     public function delete()
     {
-        $this->appendDataToURL();
+        if( $this->packageOptions[ 'asJsonRequest' ] ) {
+            $this->setPostParameters();
+        }else{
+            $this->appendDataToURL();
+        }
 
         return $this->withOption('CUSTOMREQUEST', 'DELETE')
             ->send();
