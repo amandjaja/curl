@@ -1,13 +1,11 @@
 ixudra/curl
 ================
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ixudra/curl.svg?style=flat-square)](https://packagist.org/packages/ixudra/curl)
-[![license](https://img.shields.io/github/license/ixudra/curl.svg)]()
-[![StyleCI](https://styleci.io/repos/18486198/shield)](https://styleci.io/repos/18486198)
-[![Total Downloads](https://img.shields.io/packagist/dt/ixudra/curl.svg?style=flat-square)](https://packagist.org/packages/ixudra/curl)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/amandjaja/curl.svg?style=flat-square)](https://packagist.org/packages/amandjaja/curl)
+[![Total Downloads](https://img.shields.io/packagist/dt/ixudra/curl.svg?style=flat-square)](https://packagist.org/packages/amandjaja/curl)
 
 
-![Ixudra Curl](https://repository-images.githubusercontent.com/18486198/cd2b2080-de01-11e9-8fb1-e64ffe5e9816)
+![Forked from Ixudra Curl](https://repository-images.githubusercontent.com/18486198/cd2b2080-de01-11e9-8fb1-e64ffe5e9816)
 
 Custom PHP cURL library for the Laravel 4 or 5 framework - developed by [Ixudra](http://ixudra.be).
 
@@ -36,7 +34,7 @@ Pull this package in through Composer.
 
     {
         "require": {
-            "ixudra/curl": "6.*"
+            "amandjaja/curl": "6.*"
         }
     }
 
