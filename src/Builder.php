@@ -376,11 +376,11 @@ class Builder {
     {
         if( $this->packageOptions[ 'asJsonRequest' ] ) {
             $this->setPostParameters();
+            return $this->withOption('CUSTOMREQUEST', 'GET')->send();
         }else{
             $this->appendDataToURL();
+            return $this->send();
         }
-
-        return $this->send();
     }
 
     /**
